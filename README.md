@@ -61,7 +61,7 @@ After executing the program, we can also check the generated data in `dataFrame.
 The program script is in the file: `InternshipTask.py`
 
 To test the operation of the program, sample data was added in csv files:
-- four argumets: `Pokemon1.csv`, `Pokemon1.csv`
+- four argumets: `Pokemon1.csv`, `Pokemon2.csv`
 - five argumets (with join type): `Customers.csv`, `Products.csv`
 
 To run the application properly, Python packages (pandas) have to be installed on your PC.
