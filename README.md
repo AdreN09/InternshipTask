@@ -6,7 +6,7 @@ This project was made for the recruitment task.
 - [General Info](#general_info)
 - [Technologies Used](#tec)
 - [Results](#results)
-- [Executing info](#exeInfo)
+- [Executing Info](#exeInfo)
 - [Data](#data)
 ## <a name="general_info" /> General Information
 The aim of the project was creating a program which would be able to aggregate data from two csv files. 
@@ -49,7 +49,7 @@ After executing the program, we can also check the generated data in `dataFrame.
   
   In my case: `join C:\InternshipTask\Products.csv C:\InternshipTask\Customers.csv Product_ID right`
   ![]()
-## <a name="exeInfo" /> Executing info
+## <a name="exeInfo" /> Executing Information
 The program script is in the file: `InternshipTask.py`
 
 To test the operation of the program, sample data was added in csv files:
