@@ -25,10 +25,12 @@ In this chapter, I would like to demonstrate a few screenshots of the program's 
 After starting the program and typing the command: `join file_path file_path column_name` ,we get data frame from both files.
 
 In my case: `join C:\InternshipTask\Pokemon1.csv C:\InternshipTask\Pokemon2.csv Name`
-![]()
+
+![Data frame from both files](/Images/join.png)
 
 After executing the program, we can also check the generated data in `dataFrame.csv`.
-![]()
+
+![Data frame from both files in csv](/Images/csv4.png)
 
 - Agregating of two csv files with join type
 
@@ -36,19 +38,22 @@ After executing the program, we can also check the generated data in `dataFrame.
   After starting the program and typing the command: `join file_path file_path column_name inner` ,we get data frame with inner join type from both files.
   
   In my case: `join C:\InternshipTask\Products.csv C:\InternshipTask\Customers.csv Product_ID inner`
-  ![]()
+  
+  ![Data frame with inner join type](/Images/inner.png)
   
   - Join type: left
   After starting the program and typing the command: `join file_path file_path column_name left` ,we get data frame with left join type from both files.
   
   In my case: `join C:\InternshipTask\Products.csv C:\InternshipTask\Customers.csv Product_ID left`
-  ![]()
+  
+  ![Data frame with left join type](/Images/left.png)
   
   - Join type: right
   After starting the program and typing the command: `join file_path file_path column_name right` ,we get data frame with right join type from both files.
   
   In my case: `join C:\InternshipTask\Products.csv C:\InternshipTask\Customers.csv Product_ID right`
-  ![]()
+  
+  ![Data frame with right join type](/Images/right.png)
 ## <a name="exeInfo" /> Executing Information
 The program script is in the file: `InternshipTask.py`
 
