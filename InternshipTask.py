@@ -24,14 +24,14 @@ print("To execute the program, execute the command: join file_path file_path col
 command = input("Your command: ")
 command_sp = command.split(" ")
 
-def read():
+def join():
     if ".csv" in command_sp[1]:
         file_path1 = pd.read_csv(command_sp[1])
         if ".csv" in command_sp[2]:
             file_path2 = pd.read_csv(command_sp[2])
             if (command_sp[3] in file_path1) & (command_sp[3] in file_path2):
                 df = pd.concat([file_path1, file_path2])
-                df.to_csv("C:\InternshipTask\dataFrame.csv")
+                # df.to_csv("C:\InternshipTask\dataFrame.csv")
                 print(df)
             else:
                 print("Name of column: '" + command_sp[3] + "' doesn't exist in both csv's files! Try again.")
@@ -70,7 +70,7 @@ def join_type():
 def main():
     if "join" in command:
         if len(command_sp) == 4:
-            read()
+            join()
         elif len(command_sp) == 5:
             join_type()
         else:
