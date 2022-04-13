@@ -19,6 +19,36 @@ The program is executed with the command: join file_path file_path column_name j
 - Python library - pandas 1.3.1
 ## <a name="results" /> Results
 In this chapter, I would like to demonstrate a few screenshots of the program's execution.
+
+- Default agregating of two csv files
+
+After starting the program and typing the command: `join file_path file_path column_name` ,we get data frame from both files.
+
+In my case: `join C:\InternshipTask\Pokemon1.csv C:\InternshipTask\Pokemon2.csv Name`
+![]()
+
+After executing the program, we can also check the generated data in `dataFrame.csv`.
+![]()
+
+- Agregating of two csv files with join type
+
+  - Join type: inner
+  After starting the program and typing the command: `join file_path file_path column_name inner` ,we get data frame with inner join type from both files.
+  
+  In my case: `join C:\InternshipTask\Products.csv C:\InternshipTask\Customers.csv Product_ID inner`
+  ![]()
+  
+  - Join type: left
+  After starting the program and typing the command: `join file_path file_path column_name left` ,we get data frame with left join type from both files.
+  
+  In my case: `join C:\InternshipTask\Products.csv C:\InternshipTask\Customers.csv Product_ID left`
+  ![]()
+  
+  - Join type: right
+  After starting the program and typing the command: `join file_path file_path column_name right` ,we get data frame with right join type from both files.
+  
+  In my case: `join C:\InternshipTask\Products.csv C:\InternshipTask\Customers.csv Product_ID right`
+  ![]()
 ## <a name="exeInfo" /> Executing info
 The program script is in the file: `InternshipTask.py`
 
@@ -29,6 +59,9 @@ To test the operation of the program, sample data was added in csv files:
 To run the application properly, Python packages (pandas) have to be installed on your PC.
 
 The optional saving of the data frame is included in the file: `dataFrame.csv`
+
+The other information about the file in the repository:
+- /Images - images used in the README.md file are stored
 ## <a name="data" /> Data
 ### Archive
 The archive with the data about Pokemons used in this project can be reached by [the following link](https://gist.github.com/armgilles/194bcff35001e7eb53a2a8b441e8b2c6).
