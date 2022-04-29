@@ -1,7 +1,7 @@
-# InternshipTask - aggregate data
+# Aggregate data
 *by Adrian Krawczyk*
 ***
-This project was made for the recruitment task.
+
 ## Table of Contents
 - [General Info](#general_info)
 - [Technologies Used](#tec)
